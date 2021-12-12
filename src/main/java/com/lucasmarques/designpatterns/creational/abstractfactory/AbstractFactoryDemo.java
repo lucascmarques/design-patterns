@@ -4,7 +4,7 @@ import com.lucasmarques.designpatterns.creational.abstractfactory.factories.GUIF
 import com.lucasmarques.designpatterns.creational.abstractfactory.factories.MacOSFactory;
 import com.lucasmarques.designpatterns.creational.abstractfactory.factories.WindowsFactory;
 
-public class Demo {
+public class AbstractFactoryDemo {
 
     private static Application configureApplication() {
         String osName = System.getProperty("os.name").toLowerCase();
